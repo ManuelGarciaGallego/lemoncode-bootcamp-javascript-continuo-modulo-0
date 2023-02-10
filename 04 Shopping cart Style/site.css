@@ -22,3 +22,20 @@ body {
   width: 100px;
   height: auto;
 }
+
+.item-entry {
+  width: 300px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item-description {
+  text-transform: lowercase;
+  font-size: 16px;
+  display: block;
+}
