@@ -18,12 +18,13 @@ body {
   border: 1px solid #9c9c9c;
   display: flex;
   justify-content: space-between;
-  /* añadido al introducir otros hoteles */
   margin-bottom: 8px;
 }
 
 .hotel-name-container {
+  display: flex;
   max-width: 300px;
+  flex-grow: 1;
 }
 
 .hotel-name {
@@ -36,6 +37,8 @@ body {
 .hotel-description-container {
   padding-top: 10px;
   max-width: 300px;
+
+  flex-grow: 1;
 }
 
 .hotel-description {
@@ -45,6 +48,7 @@ body {
 
 .hotel-telephone-container {
   max-width: 250px;
+  flex-grow: 1;
 }
 
 .hotel-telephone {
@@ -54,5 +58,5 @@ body {
 }
 
 .stars {
-  max-width: 100px;
+  width: 100px;
 }
