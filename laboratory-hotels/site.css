@@ -22,7 +22,6 @@ body {
 }
 
 .hotel-name-container {
-  display: flex;
   max-width: 300px;
   flex-grow: 1;
 }
